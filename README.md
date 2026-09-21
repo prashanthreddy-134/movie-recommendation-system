@@ -1,12 +1,20 @@
-# Movie Recommendation System
+# 🎬 Movie Recommendation System
 
-Python-only content-based movie recommender using TF-IDF and cosine similarity.
+A Python-based movie recommendation system that recommends movies based on the similarity between movie features.
 
-## Run
-pip install -r requirements.txt
-streamlit run app.py
+The project uses **content-based filtering** and **machine learning techniques** to identify movies that are similar to a selected movie.
 
-CLI:
-python recommender.py "Inception"
+---
 
-The bundled dataset is an educational sample and needs no internet/API.
+## 📌 Project Overview
+
+The Movie Recommendation System analyzes movie information and generates recommendations based on the characteristics of movies.
+
+Instead of relying on ratings from other users, this project uses **content-based recommendation**, where recommendations are generated from movie attributes.
+
+### Example
+
+If a user selects:
+
+```text
+Baahubali
